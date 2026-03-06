@@ -98,7 +98,7 @@ export default function Home() {
       </section>
 
       {/* Work Experience Section */}
-      <section id="experience" className="py-20 bg-white/50">
+      <section id="experience" className="py-20">
         <div className="mx-auto max-w-5xl px-6">
           <SectionTitle>Work Experience</SectionTitle>
           <div className="space-y-6">
@@ -192,7 +192,7 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="py-20 bg-white/50">
+      <section id="projects" className="py-20">
         <div className="mx-auto max-w-5xl px-6">
           <SectionTitle>Research Projects</SectionTitle>
           <div className="grid gap-5 md:grid-cols-2">
@@ -309,7 +309,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 bg-white/50">
+      <section className="py-20">
         <div className="mx-auto max-w-5xl px-6 text-center">
           <h2 className="mb-4 text-3xl font-bold bg-gradient-to-r from-purple to-blue bg-clip-text text-transparent">
             Let&apos;s Connect
