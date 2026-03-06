@@ -1,6 +1,22 @@
 export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div className="relative min-h-screen overflow-x-hidden">
+      {/* Floating Bubbles */}
+      <div className="pointer-events-none absolute top-0 bottom-0 left-0 right-0 z-0 overflow-hidden" aria-hidden="true">
+        <div className="bubble bubble-1" />
+        <div className="bubble bubble-2" />
+        <div className="bubble bubble-3" />
+        <div className="bubble bubble-4" />
+        <div className="bubble bubble-5" />
+        <div className="bubble bubble-6" />
+        <div className="bubble bubble-7" />
+        <div className="bubble bubble-8" />
+        <div className="bubble bubble-9" />
+        <div className="bubble bubble-10" />
+        <div className="bubble bubble-11" />
+        <div className="bubble bubble-12" />
+      </div>
+
       {/* Navigation */}
       <nav className="fixed top-0 z-50 w-full border-b border-card-border bg-white/70 backdrop-blur-lg">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
@@ -19,13 +35,8 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section id="about" className="relative overflow-hidden pt-32 pb-20">
-        {/* Background decorations */}
-        <div className="pointer-events-none absolute -top-20 -right-20 h-72 w-72 rounded-full bg-purple/10 blur-3xl" />
-        <div className="pointer-events-none absolute top-40 -left-20 h-64 w-64 rounded-full bg-blue/10 blur-3xl" />
-        <div className="pointer-events-none absolute bottom-0 right-1/3 h-48 w-48 rounded-full bg-violet/10 blur-3xl" />
-
-        <div className="relative mx-auto max-w-5xl px-6">
+      <section id="about" className="relative pt-32 pb-20">
+        <div className="mx-auto max-w-5xl px-6">
           <div className="flex flex-col items-center text-center">
             {/* Avatar circle */}
             <div className="mb-8 flex h-28 w-28 items-center justify-center rounded-full bg-gradient-to-br from-purple to-blue animate-float">
